@@ -1,0 +1,139 @@
+  :root {
+    --surface-page:   #f9f9f7;
+    --surface-card:   #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --border:         rgba(11,11,11,0.10);
+
+    --cat-online:     #2a78d6; /* 线上分享会 */
+    --cat-offline:    #1baf7a; /* 线下聚会 */
+    --cat-book:       #eda100; /* 读书会 */
+    --cat-workshop:   #008300; /* 工作坊 */
+    --cat-media:      #4a3aa7; /* 自媒体/播客 */
+    --cat-good:       #e34948; /* 公益/成长 */
+    --cat-other:      #e87ba4; /* 其他 */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface-page:   #0d0d0d;
+      --surface-card:   #1a1a19;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --border:         rgba(255,255,255,0.10);
+
+      --cat-online:     #3987e5;
+      --cat-offline:    #199e70;
+      --cat-book:       #c98500;
+      --cat-workshop:   #008300;
+      --cat-media:      #9085e9;
+      --cat-good:       #e66767;
+      --cat-other:      #d55181;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--surface-page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 32px 20px 80px; }
+
+  header.hero {
+    background: linear-gradient(135deg, #1b2a5e 0%, #33418f 40%, #6a4fb0 75%, #b0578e 100%);
+    color: #fff;
+    border-radius: 24px;
+    padding: 40px 32px;
+    margin-bottom: 32px;
+  }
+  header.hero .eyebrow { font-size: 13px; letter-spacing: 4px; color: #ffd9a0; font-weight: 700; text-transform: uppercase; }
+  header.hero h1 { margin: 10px 0 8px; font-size: 30px; font-weight: 800; }
+  header.hero p { margin: 0; font-size: 15px; color: #f0e6ff; max-width: 640px; }
+  header.hero .updated { margin-top: 18px; font-size: 12.5px; color: rgba(255,255,255,0.75); }
+
+  h2.section-title { font-size: 19px; font-weight: 800; margin: 40px 0 6px; display: flex; align-items: baseline; gap: 10px; }
+  h2.section-title .count { font-size: 12.5px; font-weight: 600; color: var(--text-muted); }
+  p.section-sub { margin: 0 0 18px; font-size: 13.5px; color: var(--text-secondary); }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .chip {
+    border: 1px solid var(--border);
+    background: var(--surface-card);
+    color: var(--text-secondary);
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    user-select: none;
+    transition: transform 0.08s ease;
+  }
+  .chip:active { transform: scale(0.97); }
+  .chip .dot { width: 9px; height: 9px; border-radius: 50%; }
+  .chip.active { color: #fff; border-color: transparent; }
+
+  .events-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 640px) { .events-grid.projects { grid-template-columns: 1fr 1fr; } }
+
+  .card {
+    background: var(--surface-card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 20px 22px;
+    position: relative;
+    overflow: hidden;
+  }
+  .card .tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 11.5px; font-weight: 700; padding: 4px 10px 4px 8px;
+    border-radius: 999px; color: #fff; margin-bottom: 10px;
+  }
+  .card .tag .dot { width: 7px; height: 7px; border-radius: 50%; background: rgba(255,255,255,0.9); }
+  .card h3 { margin: 0 0 6px; font-size: 17px; font-weight: 800; padding-right: 96px; }
+  .card .meta { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .card .meta span { white-space: nowrap; }
+  .card p.desc { font-size: 13.5px; color: var(--text-secondary); margin: 0 0 12px; white-space: pre-line; }
+  .card .contact { font-size: 12.5px; color: var(--text-muted); border-top: 1px dashed var(--gridline); padding-top: 10px; margin-top: 4px; }
+  .card .actions { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+  .card.new::after {
+    content: "NEW"; position: absolute; left: 0; top: 0;
+    background: var(--cat-good); color: #fff; font-size: 10px; font-weight: 800;
+    letter-spacing: 1px; padding: 3px 10px; border-radius: 0 0 10px 0;
+  }
+  .btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12.5px; font-weight: 700; padding: 8px 14px; border-radius: 10px;
+    text-decoration: none; border: 1px solid var(--border);
+    color: var(--text-primary); background: var(--surface-page);
+  }
+  .btn.primary { background: var(--text-primary); color: var(--surface-card); border-color: transparent; }
+  .status-pill { position: absolute; top: 18px; right: 18px; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+  .status-upcoming { background: rgba(27,175,122,0.14); color: #0f8f61; }
+  .status-past { background: rgba(137,135,129,0.16); color: var(--text-muted); }
+  .status-ongoing { background: rgba(42,120,214,0.14); color: #2a78d6; }
+  .card.past { opacity: 0.72; }
+
+  .poster-thumb { width: 100%; max-width: 220px; border-radius: 12px; display: block; margin: 4px 0 14px; border: 1px solid var(--border); }
+
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--gridline); font-size: 12.5px; color: var(--text-muted); }
+  footer a { color: var(--text-secondary); }
+
+  .tabs { display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 1px solid var(--gridline); }
+  .tab {
+    appearance: none; background: none; border: none; border-bottom: 2px solid transparent;
+    color: var(--text-secondary); font-family: inherit; font-size: 14px; font-weight: 700;
+    padding: 8px 6px 10px; cursor: pointer; margin-bottom: -1px;
+  }
+  .tab .tab-count { color: var(--text-muted); font-weight: 600; font-size: 12.5px; }
+  .tab.active { color: var(--text-primary); border-bottom-color: var(--cat-media); }
+  .empty { color: var(--text-muted); font-size: 13.5px; padding: 12px 4px; }
+
+  .hidden { display: none !important; }
