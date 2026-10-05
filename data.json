@@ -2,6 +2,7 @@
   "updated_note": "由每周自动任务从报名表重新生成；字段说明见 RUNBOOK.md",
   "synced": "2026-10-04",
   "overrides": {
+    "北美健身群": {"poster": "fitness.jpg"},
     "正念生活营": {
       "start": "2026-09-06",
       "end": "2026-10-03",
