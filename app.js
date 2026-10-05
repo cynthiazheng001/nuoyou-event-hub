@@ -99,7 +99,7 @@ function renderEvents() {
     const c = document.getElementById("events-" + k);
     c.innerHTML = "";
     if (!panels[k].length) c.appendChild(el("div", "empty", "暂无"));
-    panels[k].forEach(ev => c.appendChild(makeEventCard(ev)));
+    [...panels[k].filter(ev => NEW_SINCE.includes(ev.title)), ...panels[k].filter(ev => !NEW_SINCE.includes(ev.title))].forEach(ev => c.appendChild(makeEventCard(ev)));
     document.getElementById(`tab-${k}-count`).textContent = `(${panels[k].length})`;
   });
   document.getElementById("event-count").textContent = `(${ALL_EVENTS.length})`;
