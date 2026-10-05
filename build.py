@@ -54,7 +54,7 @@ for e in data["events"]:
             ev["calLink"] = cal(e["title"], start, end, e["desc"], e.get("location", "线上"))
         ev["_sort"] = start.toordinal()
     else:
-        ev["status"] = "ongoing"; ev["_sort"] = 0
+        until = data.get("overrides", {}).get(e["title"], {}).get("upcoming_until"); ev["status"] = "upcoming" if until and TODAY <= datetime.date.fromisoformat(until) else "ongoing"; ev["_sort"] = 0
     EVENTS.append(ev)
 
 ongoing = [e for e in EVENTS if e["status"] == "ongoing"]
