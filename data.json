@@ -3,7 +3,7 @@
   "synced": "2026-10-05",
   "overrides": {
     "北美健身群": {
-      "poster": "fitness.jpg"
+      "poster": "fitness.jpg", "upcoming_until": "2026-10-12"
     },
     "正念生活营": {
       "start": "2026-09-06",
