@@ -1,9 +1,10 @@
 {
   "updated_note": "由每周自动任务从报名表重新生成；字段说明见 RUNBOOK.md",
-  "synced": "2026-10-05",
+  "synced": "2026-11-02",
   "overrides": {
     "北美健身群": {
-      "poster": "fitness.jpg", "upcoming_until": "2026-10-12"
+      "poster": "fitness.jpg",
+      "upcoming_until": "2026-10-12"
     },
     "正念生活营": {
       "start": "2026-09-06",
@@ -23,6 +24,45 @@
       "meta_extra": [
         "京都 Kyoto"
       ]
+    },
+    "思维实验室第117期《对谈(29)如何幸福》": {
+      "poster": "siweishiyanshi117.jpg",
+      "cat": "online",
+      "keep_raw_date": true
+    },
+    "中英文共读《论语》第11次：里仁第四（4.10–4.18）": {
+      "poster": "lunyu11.jpg",
+      "keep_raw_date": true
+    },
+    "哈佛谈判教练小课堂：职场老实人如何站着把条件谈了": {
+      "poster": "tanpan.jpg",
+      "cat": "online",
+      "keep_raw_date": true
+    },
+    "北美女性健康与体能运动群：30–60天引体向上挑战": {
+      "poster": "nvxingtineng.jpg",
+      "cat": "good"
+    },
+    "正念念书会《Stillness Speaks》": {
+      "poster": "niannianshu.jpg",
+      "keep_raw_date": true
+    },
+    "公益教练对话体验": {
+      "poster": "gongyijiaolian.jpg",
+      "keep_raw_date": true
+    },
+    "UCA WAVES 校园反霸凌工作坊：如何支持我们的孩子": {
+      "poster": "fanbaling.jpg",
+      "location": "800 Park Offices Drive, Durham, NC",
+      "keep_raw_date": true
+    },
+    "QPR 生命守门员 · 自杀预防培训": {
+      "poster": "qpr.jpg",
+      "cat": "good",
+      "keep_raw_date": true
+    },
+    "Assertive Communication Club": {
+      "cat": "workshop"
     }
   },
   "seen": {
@@ -68,10 +108,30 @@
     "李剑锋": "2026-09-03",
     "苏曦": "2026-09-03",
     "桃子": "2026-09-03",
-    "北美健身群": "2026-10-05"
+    "北美健身群": "2026-10-05",
+    "思维实验室第117期《对谈(29)如何幸福》": "2026-11-02",
+    "中英文共读《论语》第11次：里仁第四（4.10–4.18）": "2026-11-02",
+    "哈佛谈判教练小课堂：职场老实人如何站着把条件谈了": "2026-11-02",
+    "北美女性健康与体能运动群：30–60天引体向上挑战": "2026-11-02",
+    "Assertive Communication Club": "2026-11-02",
+    "正念念书会《Stillness Speaks》": "2026-11-02",
+    "公益教练对话体验": "2026-11-02",
+    "UCA WAVES 校园反霸凌工作坊：如何支持我们的孩子": "2026-11-02",
+    "QPR 生命守门员 · 自杀预防培训": "2026-11-02",
+    "chen yan-hua": "2026-11-02"
   },
   "new_since": [
-    "北美健身群"
+    "北美健身群",
+    "思维实验室第117期《对谈(29)如何幸福》",
+    "中英文共读《论语》第11次：里仁第四（4.10–4.18）",
+    "哈佛谈判教练小课堂：职场老实人如何站着把条件谈了",
+    "北美女性健康与体能运动群：30–60天引体向上挑战",
+    "Assertive Communication Club",
+    "正念念书会《Stillness Speaks》",
+    "公益教练对话体验",
+    "UCA WAVES 校园反霸凌工作坊：如何支持我们的孩子",
+    "QPR 生命守门员 · 自杀预防培训",
+    "chen yan-hua"
   ],
   "events": [
     {
@@ -81,7 +141,7 @@
         "每周二美东时间晚上8点线上共读和聊天",
         "线上"
       ],
-      "desc": "书友招募，每周看书、聊天",
+      "desc": "书友招募，每周看书、聊天。下一本共读《Four Thousand Weeks 四千周》，11月3日周二美东晚8点开始。读书会网页：https://dannishen60.github.io/dmv-book-club/",
       "joinLink": "https://chat.whatsapp.com/Fii9JepQy2E9MAOYkz4rN9",
       "joinLabel": "参与详情 · 群内英文交流",
       "contact": "组织者：Danni Shen · 微信 danni0125, 小红书和公众号均可"
@@ -315,6 +375,137 @@
       "start": "2026-09-20",
       "end": "2027-01-20",
       "poster": "jiaolian.jpg"
+    },
+    {
+      "cat": "online",
+      "title": "思维实验室第117期《对谈(29)如何幸福》",
+      "meta": [
+        "2026-11-07 晚",
+        "线上",
+        "26/11/7 美东晚上8点（北京时间11月8日上午8点）"
+      ],
+      "desc": "开放麦：说说你的幸福感受，谈谈你的幸福观念，探讨我们如何幸福。往期回放：喜马拉雅 https://www.ximalaya.com/album/124425775",
+      "joinLink": "https://meeting.tencent.com/dm/C3hdO5TKBJzO",
+      "joinLabel": "参与详情 · 腾讯会议 514-969-158",
+      "contact": "组织者：苏曦 · 微信: xiricksu",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "poster": "siweishiyanshi117.jpg"
+    },
+    {
+      "cat": "book",
+      "title": "中英文共读《论语》第11次：里仁第四（4.10–4.18）",
+      "meta": [
+        "2026-11-06 晚",
+        "线上",
+        "26/11/6 美东晚上9:30–11:00（北京时间11月7日周六上午）"
+      ],
+      "desc": "不患无位，患所以立；君子喻于义，小人喻于利；见贤思齐焉，见不贤而内自省也。喜马拉雅专辑 https://ximalaya.com/album/127924612 ，YouTube @suxi-explorer",
+      "joinLink": "https://us02web.zoom.us/j/89141301500?pwd=dAmu2updIp3f79ISj5I19WPYI3Aag5.1",
+      "joinLabel": "参与详情",
+      "contact": "组织者：苏曦 · 微信: xiricksu",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "poster": "lunyu11.jpg"
+    },
+    {
+      "cat": "online",
+      "title": "哈佛谈判教练小课堂：职场老实人如何站着把条件谈了",
+      "meta": [
+        "2026-11-04",
+        "线上直播",
+        "26/11/4 周三 20:00（海报未注明时区）",
+        "扫海报二维码预约直播"
+      ],
+      "desc": "直播。主讲：Sheila（《英雄故事汇》主持人，高管教练）、Shulin（职场老实人的谈判教练，哈佛公共管理硕士，公众号：职场谈判江）",
+      "contact": "组织者：Shulin · 微信",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "poster": "tanpan.jpg"
+    },
+    {
+      "cat": "good",
+      "title": "北美女性健康与体能运动群：30–60天引体向上挑战",
+      "meta": [
+        "长期（引体向上挑战 30–60 天）",
+        "线上"
+      ],
+      "desc": "秋冬组团互相激励：从零开始，循序渐进，训练打卡、分享进步，一起争取拉起人生第一个引体向上",
+      "contact": "组织者：爱运动的mermaid、飞雪 · 微信群（群二维码见诺友北美群 11/1 消息）",
+      "poster": "nvxingtineng.jpg"
+    },
+    {
+      "cat": "workshop",
+      "title": "Assertive Communication Club",
+      "meta": [
+        "每周六 7am PST、10am PST",
+        "线上",
+        "私信 Echo 或扫码加群（二维码见诺友北美群 11/1 消息）"
+      ],
+      "desc": "自信表达练习俱乐部，第一期已经开始",
+      "contact": "组织者：Echo · 微信"
+    },
+    {
+      "cat": "book",
+      "title": "正念念书会《Stillness Speaks》",
+      "meta": [
+        "2026-11-06 – 12-19",
+        "线上",
+        "26/11/6-26/12/19 美东每周五下午2:00–2:30，或周日早9:00–9:30（内容一样）",
+        "腾讯会议 367-0569-1073"
+      ],
+      "desc": "用书里讲的方式来读书：专注当下，接纳一切发生，一个时间做一件事。一人读，其他人用心听，不讨论，不用报名，随时来；想读的人请提前2分钟来分工",
+      "contact": "组织者：蛙蛙 · 公众号@挖掘的蛙",
+      "start": "2026-11-06",
+      "end": "2026-12-19",
+      "poster": "niannianshu.jpg"
+    },
+    {
+      "cat": "workshop",
+      "title": "公益教练对话体验",
+      "meta": [
+        "2026-11-01 – 12-31",
+        "线上",
+        "26/11/1-26/12/31（截止日），$26/小时，名额有限"
+      ],
+      "desc": "为积累 ICF 认证所需教练时数开放的公益体验名额：职场·创业、情绪·关系、自我探索。预约联系：微信 xiangspaceforlove，Email hispacebetween@gmail.com",
+      "joinLink": "https://calendar.app.google/MJwF57tHW4THe8NY6",
+      "joinLabel": "参与详情 · 预约",
+      "contact": "组织者：香Tian · 微信",
+      "start": "2026-11-01",
+      "end": "2026-12-31",
+      "poster": "gongyijiaolian.jpg"
+    },
+    {
+      "cat": "workshop",
+      "title": "UCA WAVES 校园反霸凌工作坊：如何支持我们的孩子",
+      "meta": [
+        "2026-11-10",
+        "线下+Zoom",
+        "26/11/10 12:30–2:30pm ET，RTP Office（800 Park Offices Drive, Durham）",
+        "需注册（扫海报二维码），注册后发 Zoom 链接"
+      ],
+      "desc": "与 Wake County 公立学校系统工作人员对话：识别和理解霸凌、自信地支持孩子、与学校有效合作、寻找学校资源；提供中文翻译",
+      "contact": "组织者：江蕾 · 微信：Leij201806",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "location": "800 Park Offices Drive, Durham, NC",
+      "poster": "fanbaling.jpg"
+    },
+    {
+      "cat": "good",
+      "title": "QPR 生命守门员 · 自杀预防培训",
+      "meta": [
+        "2026-11-14",
+        "线上",
+        "26/11/14 10:05am–12:00pm EST",
+        "扫海报二维码注册"
+      ],
+      "desc": "UCA WAVES 主办：学习识别预警信号、建立对话信心、帮助对接合适资源。免费，英文学习材料、中文授课，限25人。咨询 coordinator@ucawaves.org",
+      "contact": "组织者：江蕾 · 微信：Leij201806",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "poster": "qpr.jpg"
     }
   ],
   "projects": [
@@ -478,6 +669,13 @@
       "city": "硅谷",
       "desc": "Career & Family Coach 轻量父母共读会 - 支持父母找到松弛养育的方法并落地",
       "contact": "微信：zwt121242050"
+    },
+    {
+      "cat": "media",
+      "name": "chen yan-hua",
+      "city": "纽约 / 俄勒冈",
+      "desc": "公众号「陪你靠近光」：记录在 Hand in Hand Farm 学习以目标为导向的系统性家庭教育的实践与反思，希望把经验带给更多家庭；关注家庭教育、特殊教育和父母成长",
+      "contact": "公众号「陪你靠近光」"
     }
   ]
 }
